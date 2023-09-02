@@ -51,3 +51,32 @@ Create visualizations to represent your predictions and make them easy to unders
 Deployment (optional):
 
 If you plan to deploy your weather prediction model for real-time predictions, consider integrating it into a web application or providing an API.
+
+## EXAMPLE:-
+
+# Import necessary libraries
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error
+
+# Load your weather dataset
+data = pd.read_csv('weather_data.csv')
+
+# Preprocess data, select features, and split into train and test sets
+# ...
+
+# Create and train a Linear Regression model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Evaluate the model's performance
+mae = mean_absolute_error(y_test, y_pred)
+print(f'Mean Absolute Error: {mae}')
+
+# Use the trained model to predict future weather
+
+
