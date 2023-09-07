@@ -1,4 +1,4 @@
-![Weather_prediction_img](https://github.com/Harsh-Patidar/ML/assets/110400713/e428552e-d58f-4d57-9543-a01cbd226580)# Weather Prediction With Python And Machine Learning
+# Weather Prediction With Python And Machine Learning
 
 GOAL_
 The goal of weather prediction using machine learning is to improve the accuracy and reliability of weather forecasting. 
